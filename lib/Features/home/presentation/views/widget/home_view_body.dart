@@ -24,7 +24,7 @@ class HomeViewBody extends StatelessWidget {
           ),
           child: Text(
             'Best Seller',
-            style: Styles.textStyle20.copyWith(fontFamily: KGtSectraFine),
+            style: Styles.textStyle18,
           ),
         ),
         BestSellerListViewItem(),
