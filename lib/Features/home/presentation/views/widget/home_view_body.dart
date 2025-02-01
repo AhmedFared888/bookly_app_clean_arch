@@ -2,7 +2,6 @@ import 'package:bookly_app_clean_arch/Core/utils/styles.dart';
 import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/best_seller_list_view_item.dart';
 import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/custom_app_bar.dart';
 import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/featured_books_list_view.dart';
-import 'package:bookly_app_clean_arch/constants.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -20,7 +19,7 @@ class HomeViewBody extends StatelessWidget {
         ),
         Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: 20,
+            horizontal: 30,
           ),
           child: Text(
             'Best Seller',
