@@ -29,7 +29,7 @@ class BestSellerListViewItem extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               width: 30,
             ),
             Expanded(
@@ -46,7 +46,7 @@ class BestSellerListViewItem extends StatelessWidget {
                           .copyWith(fontFamily: KGtSectraFine),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 7,
                   ),
                   Text(
@@ -55,7 +55,7 @@ class BestSellerListViewItem extends StatelessWidget {
                       color: Styles.textStyle14.color?.withOpacity(.7),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 7,
                   ),
                   Row(
@@ -65,8 +65,8 @@ class BestSellerListViewItem extends StatelessWidget {
                         style: Styles.textStyle20
                             .copyWith(fontWeight: FontWeight.bold),
                       ),
-                      Spacer(),
-                      BookRating(),
+                      const Spacer(),
+                      const BookRating(),
                     ],
                   ),
                 ],
