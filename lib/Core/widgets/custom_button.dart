@@ -34,23 +34,16 @@ class CustomButton extends StatelessWidget {
   }
 }
 
-
-
-
-
-
-
-
 //Container(
-    //   width: MediaQuery.of(context).size.width * .35,
-    //   height: 48,
-    //   decoration: BoxDecoration(
-    //     color: backGroundColor,
-    //   ),
-    //   child: Center(
-    //     child: Text(
-    //       text,
-    //       style: Styles.textStyle18.copyWith(color: textColor),
-    //     ),
-    //   ),
-    // );
+//   width: MediaQuery.of(context).size.width * .35,
+//   height: 48,
+//   decoration: BoxDecoration(
+//     color: backGroundColor,
+//   ),
+//   child: Center(
+//     child: Text(
+//       text,
+//       style: Styles.textStyle18.copyWith(color: textColor),
+//     ),
+//   ),
+// );
