@@ -4,8 +4,8 @@ import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/bo
 import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/similer_books_list_view.dart';
 import 'package:flutter/material.dart';
 
-import 'CustomBookImage.dart';
 import 'custom_book_details_app_bar.dart';
+import 'custom_book_image.dart';
 
 class BookDetailsViewBody extends StatelessWidget {
   const BookDetailsViewBody({super.key});
@@ -23,7 +23,9 @@ class BookDetailsViewBody extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: width * .25),
-                child: const CustomBookImage(),
+                child: const CustomBookImage(
+                  image: '',
+                ),
               ),
               const SizedBox(
                 height: 43,

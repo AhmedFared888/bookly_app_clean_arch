@@ -1,4 +1,4 @@
-import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/CustomBookImage.dart';
+import 'package:bookly_app_clean_arch/Features/home/presentation/views/widget/custom_book_image.dart';
 import 'package:flutter/material.dart';
 
 class SimilerBooksListView extends StatelessWidget {
@@ -14,7 +14,9 @@ class SimilerBooksListView extends StatelessWidget {
             padding: EdgeInsets.symmetric(
               horizontal: 5,
             ),
-            child: CustomBookImage(),
+            child: CustomBookImage(
+              image: '',
+            ),
           );
         },
         itemCount: 10,
